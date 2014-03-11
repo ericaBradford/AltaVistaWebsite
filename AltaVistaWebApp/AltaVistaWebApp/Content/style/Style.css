@@ -1,0 +1,64 @@
+body{
+font-size: 62.5%;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+nav{
+float: left;
+width: 20%;
+}
+
+.outsideNavBox{
+height: 100%;
+background: url("~/Content/images/texture.png");
+}
+
+.innerNavBox{
+/*height changed to compensate for padding-top*/
+height: 450px;
+position: relative;
+top: 20%;
+background-color: #000;
+margin-left: auto;
+margin-right: auto;
+/*padding-top used to vertical align nav items*/
+padding-top: 50px;
+}
+
+nav a{
+display: list-item;
+background-color: #ffd700;
+padding: 5px 10px 5px 10px;
+color: #000;
+text-decoration: none;
+font-size: 30px;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+width: 80%;
+height: 35px;
+margin-left: 20px;
+margin-bottom: 26px;
+text-align: center;
+}
+
+.content{
+width: 80%;
+float: right;
+}
+
+.outsideContentBox{
+height: 100%;
+background: url("~/images/Content/classroomDesks.jpg") #fff3b2 no-repeat center center fixed;
+opacity: .4;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.innerContentBox{
+height: 500px;
+position: relative;
+top: 20%;
+background-color: #ffe34c;
+}
