@@ -10,7 +10,7 @@ width: 20%;
 
 .outsideNavBox{
 height: 100%;
-background: url("~/Content/images/texture.png");
+background: url("/Content/images/texture.png");
 }
 
 .innerNavBox{
@@ -48,7 +48,7 @@ float: right;
 
 .outsideContentBox{
 height: 100%;
-background: url("~/images/Content/classroomDesks.jpg") #fff3b2 no-repeat center center fixed;
+background: url("/Content/images/classroomDesks.jpg") #fff3b2 no-repeat center center fixed;
 opacity: .4;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -61,4 +61,16 @@ height: 500px;
 position: relative;
 top: 20%;
 background-color: #ffe34c;
+}
+
+.pageTitle 
+{
+    background-color:#1b1b1b;
+    color: #ffd700;
+    position: absolute;
+    font-size: 50px;
+    top: 150px;
+    left: 250px;
+    z-index: 2;
+    opacity: 100%;
 }

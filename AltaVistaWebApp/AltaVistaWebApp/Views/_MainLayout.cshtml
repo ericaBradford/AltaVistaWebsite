@@ -23,8 +23,11 @@
     </nav>
     <div class="content">
         <div class="outsideContentBox">
+            <div class="pageTitle">
+                @RenderSection("pageTitle")
+            </div>
             <div class="innerContentBox">
-                hi
+                @RenderBody()
             </div>
         </div>
     </div>
