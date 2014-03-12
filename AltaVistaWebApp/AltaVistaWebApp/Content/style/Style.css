@@ -1,10 +1,12 @@
 body{
 font-size: 62.5%;
 font-family: Verdana, Geneva, sans-serif;
+width: 100%;
 }
 
 nav{
 float: left;
+min-width: 250px;
 width: 20%;
 }
 
@@ -14,21 +16,18 @@ background: url("/Content/images/texture.png");
 }
 
 .innerNavBox{
-/*height changed to compensate for padding-top*/
 height: 450px;
 position: relative;
 top: 20%;
 background-color: #000;
 margin-left: auto;
 margin-right: auto;
-/*padding-top used to vertical align nav items*/
-padding-top: 50px;
 }
 
 nav a{
 display: list-item;
 background-color: #ffd700;
-padding: 5px 10px 5px 10px;
+padding: 5px 5px 5px 5px;
 color: #000;
 text-decoration: none;
 font-size: 30px;
@@ -49,7 +48,6 @@ float: right;
 .outsideContentBox{
 height: 100%;
 background: url("/Content/images/classroomDesks.jpg") #fff3b2 no-repeat center center fixed;
-opacity: .4;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -65,12 +63,23 @@ background-color: #ffe34c;
 
 .pageTitle 
 {
-    background-color:#1b1b1b;
+    background-color:#535352;
+    outline-style:solid;
+    outline-color: #000;
     color: #ffd700;
+    padding: 8px;
     position: fixed;
     font-size: 50px;
-    top: 150px;
-    left: 250px;
+    top: 145px;
+    left: 500px;
     z-index: 3;
-    padding: 5px;
+}
+
+.navCorner {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 140px;
+    left: 450px;
+    z-index: 3;
 }

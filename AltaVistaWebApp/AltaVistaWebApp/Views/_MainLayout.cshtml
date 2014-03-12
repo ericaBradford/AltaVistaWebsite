@@ -4,7 +4,7 @@
 
 <html>
 <head>
-    <title></title>
+    <title>@ViewBag.Title</title>
     <link rel="stylesheet" type="text/css" href="~/Content/style/reset.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/style/Style.css" />
 </head>
@@ -12,16 +12,20 @@
     <nav>
         <div class="outsideNavBox">
             <div class="innerNavBox">
+            <div class="innerNavBox">
                 <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
+                <a href="">Calendar</a>
+                <a href="">Profile</a>
+                <a href="">About</a>
+                <a href="">Life</a>
+                <a href="">Staff</a>
+                <a href="">FAQ</a>
+            </div>
             </div>
         </div>
     </nav>
     <div class="content">
+        <img src="~/Content/images/nav-corner.png" class="navCorner"/>
         <div class="pageTitle">
             @RenderSection("pageTitle")
         </div>
