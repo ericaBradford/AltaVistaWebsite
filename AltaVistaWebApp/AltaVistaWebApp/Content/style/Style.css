@@ -16,12 +16,13 @@ background: url("/Content/images/texture.png");
 }
 
 .innerNavBox{
-height: 450px;
+height: 485px;
 position: relative;
 top: 20%;
 background-color: #000;
 margin-left: auto;
 margin-right: auto;
+padding-top: 25px;
 }
 
 nav a{
