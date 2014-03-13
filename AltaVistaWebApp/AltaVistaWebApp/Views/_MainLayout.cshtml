@@ -13,13 +13,12 @@
         <div class="outsideNavBox">
             <div class="innerNavBox">
             <div class="innerNavBox">
-                <a href="">Home</a>
-                <a href="">Calendar</a>
-                <a href="">Profile</a>
-                <a href="">About</a>
-                <a href="">Life</a>
-                <a href="">Staff</a>
-                <a href="">FAQ</a>
+                @Html.ActionLink("Home", "Index", "Home");
+                @Html.ActionLink("Calendar", "Announcements", "Home");
+                @Html.ActionLink("Profile", "Profile", "Home");
+                @Html.ActionLink("About", "AboutUs", "Home");
+                @Html.ActionLink("Life", "SchoolLife", "Home");
+                @Html.ActionLink("Staff", "Faculty", "Home");
             </div>
             </div>
         </div>
