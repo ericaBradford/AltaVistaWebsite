@@ -6,3 +6,29 @@
 @section pageTitle{
     Grades
 }
+
+<div class="profiles">
+<div class="CurrentGrades">
+    <h1>Grades</h1>
+    <br />
+    <p><u>Graphic Art</u>.................................83%</p>
+    <br />
+    <p><u>Algebra</u>.......................................78%</p>
+    <br />
+    <p><u>Creative Writing</u>..........................94%</p>
+    <br />
+    <p><u>Geography</u>..................................87%</p>
+    <br />
+    <p><u>History</u>........................................74%</p>
+    <br />
+    <p><u>Computer Typing</u>.........................88%</p>
+</div>
+
+<div class="profileNav">
+    Profile Options
+    <br />
+    @Html.ActionLink("Payments", "ProfilePayments", "Home")
+    @Html.ActionLink("Assignments", "ProfileAssignments", "Home")
+    @Html.ActionLink("Grades", "ProfileGrades", "Home")
+</div>
+</div>

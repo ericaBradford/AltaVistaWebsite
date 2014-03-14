@@ -6,3 +6,24 @@
 @section pageTitle{
     Payments
 }
+
+<div class="profiles">
+<h1>Lunch Balance: $13.36</h1>
+<br />
+<input type="text" class="formPayment"/> &nbsp; <input type="button" value="Add $$$"/>
+<br />
+<br />
+<h1>Tuition Due: $1030.50</h1>
+<br />
+<input type="text" class="formPayment"/> &nbsp; <input type="button" value="Submit Payment"/>
+
+
+<div class="profileNav">
+        Profile Options
+        <br />
+        @Html.ActionLink("Payments", "ProfilePayments", "Home")
+        @Html.ActionLink("Assignments", "ProfileAssignments", "Home")
+        @Html.ActionLink("Grades", "ProfileGrades", "Home")
+    </div>
+
+</div>
