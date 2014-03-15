@@ -1,12 +1,13 @@
 body{
-font-size: 62.5%;
-font-family: Verdana, Geneva, sans-serif;
+font-size: 16px;
+font-family: 'Noto Sans';
 width: 100%;
+text-align: justify;
 }
 
 nav{
 float: left;
-min-width: 250px;
+min-width: 170px;
 width: 20%;
 }
 
@@ -60,7 +61,10 @@ height: 500px;
 position: relative;
 top: 20%;
 background-color: #ffe34c;
-padding-top: 30px;
+padding-top:50px;
+padding-left:30px;
+font-size: 20px;
+overflow-y: scroll;
 }
 
 .pageTitle 
@@ -73,15 +77,130 @@ padding-top: 30px;
     position: fixed;
     font-size: 50px;
     top: 145px;
-    left: 500px;
-    z-index: 3;
+    left: 30%;
+    z-index: 5;
 }
 
-.navCorner {
+.navCorner 
+{
     height: 50px;
     width: 50px;
-    position: fixed;
-    top: 140px;
-    left: 450px;
-    z-index: 3;
+    position: absolute;
+    top: 145px;
+    left: 27%;
+    z-index:1;
+ }
+ .CurrentGrades 
+ {
+     background-color: white;
+     border: 1px solid black;
+     width: 410px;
+     padding: 15px;
+ }
+ .CurrentGrades h1
+ {
+      position: fixed;
+    top: 213px;
+     font-size: 40px;
+ }
+ .Assignments
+ {
+     background-color: white;
+     border: 1px solid black;
+     width: 410px;
+     padding: 15px;
+ }
+ .Assignments h1 
+ {
+     position: fixed;
+     top: 213px;
+     font-size: 40px;
+ }
+ .profiles 
+ {
+     width: 700px;
+ }
+ .profileNav 
+ {
+     background-color:black;
+     color: #ffe34c;
+     width: 200px;
+     text-align: center;
+     float: right;
+     padding: 10px;
+ }
+ .profileNav a 
+ {
+     background-color: #ffd700;
+     display: list-item;
+     list-style: none;
+     padding: 5px 5px 5px 5px;
+     color: #000;
+     text-decoration: none;
+     font-size: 20px;
+     border-radius: 40px;
+     width: 80%;
+     height: 35px;
+     margin-left: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+input[type=text] {
+    background-color: black;
+    color: #ffe34c;
 }
+section {
+     margin: 0px 20px 0px 20px;
+     border: solid 1px black;
+ }
+ 
+ article {
+     padding: 10px 10px 10px 10px;
+ }
+ 
+ .mainHeader {
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     font-size: 28px;
+     font-weight: 700;
+     margin-bottom: 4px;
+     color: #e9df13;
+ }
+ 
+ .cParagraph {
+     margin-bottom: 20px;
+     color: #e8e8e8;
+ }
+ 
+ .aboutUsBox {
+     background-color: gray;
+ }
+ 
+ .facultyListTitle li {
+     padding-left:10px;
+     list-style-type: none;
+ }
+ 
+ .facultyListName > li {
+     display: block;
+     width: auto;
+     padding-left:20px;
+     list-style-type: none;
+ }
+ 
+ .facultyList > li {
+     display: inline;
+     float: left;
+     padding-left:20px;
+     list-style-type: none;
+ }
+ 
+ .height250 {
+     height: 400px;
+     margin: 0px 20px 0px 20px;
+     border: solid 1px black;
+ }
+ 
+ .whiteFont {
+     color: #e8e8e8;
+  }
